@@ -79,13 +79,13 @@ body {
   background-color: #FCB72B;
   border: 3px solid transparent;
   color: #fff;
-  margin-left: 456px;
+  margin-left: 452px;
   transition: all 0.6s ease;
 }
 .header__btn:hover {
   border: 3px solid #FCB72B;
   transition: all 0.6s ease;
-  background-color: #5C6475;
+  background-color: #ffffff;
   color: #FCB72B;
 }
 
@@ -131,6 +131,26 @@ body {
   position: relative;
   top: 70px;
   left: 40px;
+}
+
+.about__btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  padding: 14px 39px;
+  background-color: #FCB72B;
+  border: 3px solid transparent;
+  color: #fff;
+  margin-left: 456px;
+  transition: all 0.6s ease;
+}
+.about__btn:hover {
+  border: 3px solid #FCB72B;
+  transition: all 0.6s ease;
+  background-color: #5C6475;
+  color: #FCB72B;
 }
 
 .guide {
