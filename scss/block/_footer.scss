@@ -1,0 +1,61 @@
+.site__footer{
+    background-color:  #333A44;
+}
+.footer__container{
+     display: flex;
+     align-items: center;
+    
+     
+}
+.footer__list{
+     display: flex;
+     margin-left: 59px;
+     gap: 32px;
+}
+.footer__list-link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    transition: all 0.8s ease;
+    &:hover{
+        transition: all 0.8s ease;
+        color: #FCB72B;
+    }
+}
+.footer__list-svg{
+     display: flex;
+     align-items: center;
+     margin-left: auto ;
+}
+.footer__list__svg-item{
+     margin-right: 24px;
+}
+
+.facebook{
+    width: 24px;
+     fill: #FCB72B;
+     transition: all 0.8s ease;
+     &:hover{
+        transition: all 0.8s ease;
+        fill: #E5ECF4;
+     }
+}
+.twitter{
+    width: 24px;
+    fill: #FCB72B;
+    transition: all 0.8s ease;
+    &:hover{
+       transition: all 0.8s ease;
+       fill: #E5ECF4;
+    }
+}
+.insta{
+    width: 24px;
+    fill: #FCB72B;
+    transition: all 0.8s ease;
+    &:hover{
+       transition: all 0.8s ease;
+       fill: #E5ECF4;
+    }
+}

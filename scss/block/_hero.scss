@@ -1,0 +1,50 @@
+.hero {
+    position: relative;
+    padding: 153px 775px 385px 165px;
+    background-image: url(../media/herobi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.hero__title {
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.hero__text {
+    max-width: 405px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 95px;
+    margin-bottom: 40px;
+
+}
+
+.hero__btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px;
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    margin-left: 95px;
+
+}
+.hero__line{
+    width: 200px;
+    height: 1px;
+    border: 9px solid #FCB72B;
+    background-color: #FCB72B;
+}

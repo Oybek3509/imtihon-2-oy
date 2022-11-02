@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+img{
+    height: auto;
+}
+body {
+    font-family: 'Space Mono';
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

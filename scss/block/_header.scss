@@ -1,0 +1,48 @@
+.site__header {
+  padding: 22px 0 22px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+
+}
+
+.header__img {
+  max-width: 108px;
+
+  margin-right: 59px;
+}
+
+.header__list {
+  display: flex;
+  gap: 59px;
+}
+
+.header__list-link {
+  @include mono;
+
+  &:hover {
+    color: #FCB72B;
+  }
+}
+
+.header__btn {
+  display: inline-block;
+  @include mono;
+  padding: 14px 39px;
+  background-color: #FCB72B;
+  border: 1px solid transparent;
+  color: #fff;
+
+  margin-left: 456px;
+  transition: all 0.6s ease;
+
+  &:hover {
+
+    border: 1px solid #FCB72B;
+    transition: all 0.6s ease;
+    background-color: #fff;
+    color: #FCB72B;
+  }
+}
