@@ -77,15 +77,15 @@ body {
   color: #939CAA;
   padding: 14px 39px;
   background-color: #FCB72B;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   color: #fff;
   margin-left: 456px;
   transition: all 0.6s ease;
 }
 .header__btn:hover {
-  border: 1px solid #FCB72B;
+  border: 3px solid #FCB72B;
   transition: all 0.6s ease;
-  background-color: #fff;
+  background-color: #5C6475;
   color: #FCB72B;
 }
 
@@ -234,13 +234,16 @@ body {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+  border: 3px solid transparent;
   padding: 14px 44px;
   background-color: #FCB72B;
+  transition: all 0.8s ease;
 }
 .tel_box-btn:hover {
+  transition: all 0.8s ease;
   background-color: #fff;
   color: #FCB72B;
-  border: 1px solid #FCB72B;
+  border: 3px solid #FCB72B;
 }
 
 .tel__img {
@@ -278,6 +281,31 @@ body {
     align-items: center;
   }
 }
+.sing {
+  background-color: #495567;
+  padding: 102px 102px;
+}
+
+.sing__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sing__title {
+  max-width: 415px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.sing__list {
+  display: flex;
+  gap: 18px;
+}
+
 .site__footer {
   background-color: #333A44;
 }

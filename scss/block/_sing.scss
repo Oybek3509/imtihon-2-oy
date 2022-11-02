@@ -1,0 +1,23 @@
+.sing{
+    background-color: #495567;
+    padding: 102px 102px;
+ 
+   
+}
+.sing__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sing__title{
+    max-width: 415px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+}
+.sing__list{
+    display: flex;
+    gap:18px;
+}
